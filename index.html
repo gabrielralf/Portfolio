@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset=""UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mein Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    </head>
+    <body>
+        <script src="script.js"></script>
+        <nav id = "desktop-nav">
+            <div class="logo">Gabriel R. Ricarte Lanz</div>
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#education">Experience</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <nav id = "hamburger-nav">
+            <div class="logo">Gabriel R. Ricarte Lanz</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                 </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#education" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+          </nav>
+          <section id="profile">
+            <div class = "section_pic-container">
+                <img src = "./images/profile_pic.png" alt="Profilbild">
+            </div>
+          </section>
+        <script src="script.js"></script>
+        <footer>
+            <p>&copy; 2025 Gabriel R. Ricarte Lanz</p>
+            <p>
+                Folge mir auf 
+                <a href="https://www.linkedin.com/in/gabriel-ralf-ricarte-lanz/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://wwww.github.com/gabrielricarte" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/gabrielricartee/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </p>
+        </footer>
+    </body> 
+</html>
